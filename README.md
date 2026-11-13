@@ -8,8 +8,6 @@
   <a href="#overview">Overview</a> ·
   <a href="#navigation-demos">Navigation Demos</a> ·
   <a href="#results">Results</a> ·
-  <a href="#quick-start">Quick Start</a> ·
-  <a href="#autonomous-exploration">Exploration</a>
 </p>
 
 <p align="center">
