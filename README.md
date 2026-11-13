@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/github/framework.png" alt="CCM-Nav: cognitive map maintenance, differentiable cell interaction and memory readout, and waypoint selection" width="100%">
+  <img src="github/framework.png" alt="CCM-Nav: cognitive map maintenance, differentiable cell interaction and memory readout, and waypoint selection" width="100%">
 </p>
 
 ## Overview
@@ -30,7 +30,7 @@ The cognitive map evolves as the robot observes and moves. A fixed navigation po
 ### Cognitive Map Maintenance
 
 <p align="center">
-  <img src="docs/github/cognitive_map.png" alt="Successive local graph windows with places and routes retained in persistent memory" width="100%">
+  <img src="github/cognitive_map.png" alt="Successive local graph windows with places and routes retained in persistent memory" width="100%">
 </p>
 
 As the local window advances, earlier places and traversed connections remain available in memory. Local observations and retained experience jointly inform later decisions.
@@ -39,7 +39,7 @@ As the local window advances, earlier places and traversed connections remain av
 <summary><strong>Cell interaction and route-aware memory readout</strong></summary>
 
 <p align="center">
-  <img src="docs/github/interaction_readout.png" alt="Independent boundary and head-direction gates, graph encoding, route-aware attention, and residual memory fusion" width="100%">
+  <img src="github/interaction_readout.png" alt="Independent boundary and head-direction gates, graph encoding, route-aware attention, and residual memory fusion" width="100%">
 </p>
 
 Grid-cell geometry, boundary information, movement direction, and place history are encoded into local graph features. These features query selected memory records through route-aware attention. The fused representation supports waypoint scoring and relative travel-cost prediction.
@@ -49,7 +49,7 @@ Grid-cell geometry, boundary information, movement direction, and place history 
 ## Navigation Demos
 
 <p align="center">
-  <img src="docs/github/navigation_process.png" alt="Three illustrative navigation sequences from initial observation through intermediate navigation to goal arrival" width="100%">
+  <img src="github/navigation_process.png" alt="Three illustrative navigation sequences from initial observation through intermediate navigation to goal arrival" width="100%">
 </p>
 
 **Observed space expands, the local graph follows the robot, and the executed trajectory connects start to goal.** These illustrative sequences come from V2 training rollouts; benchmark results are reported separately below.
@@ -59,9 +59,9 @@ Grid-cell geometry, boundary information, movement direction, and place history 
 
 <table>
   <tr>
-    <td align="center"><a href="docs/github/navigation_01.gif"><img src="docs/github/navigation_01.gif" alt="m6.3 navigation training rollout at episode 3000" width="320"></a></td>
-    <td align="center"><a href="docs/github/navigation_02.gif"><img src="docs/github/navigation_02.gif" alt="m6.3 navigation training rollout at episode 5000" width="320"></a></td>
-    <td align="center"><a href="docs/github/navigation_03.gif"><img src="docs/github/navigation_03.gif" alt="m6.3 navigation training rollout at episode 7000" width="320"></a></td>
+    <td align="center"><a href="github/navigation_01.gif"><img src="github/navigation_01.gif" alt="m6.3 navigation training rollout at episode 3000" width="320"></a></td>
+    <td align="center"><a href="github/navigation_02.gif"><img src="github/navigation_02.gif" alt="m6.3 navigation training rollout at episode 5000" width="320"></a></td>
+    <td align="center"><a href="github/navigation_03.gif"><img src="github/navigation_03.gif" alt="m6.3 navigation training rollout at episode 7000" width="320"></a></td>
   </tr>
   <tr>
     <td align="center">Episode 3000</td>
@@ -70,7 +70,7 @@ Grid-cell geometry, boundary information, movement direction, and place history 
   </tr>
 </table>
 
-The animations show m6.3 training trajectories and their spatial diagnostics. Click an animation to inspect it at full resolution. Media provenance is recorded in [assets.json](docs/github/assets.json).
+The animations show m6.3 training trajectories and their spatial diagnostics. Click an animation to inspect it at full resolution. Media provenance is recorded in [assets.json](github/assets.json).
 
 </details>
 
