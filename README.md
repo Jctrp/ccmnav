@@ -92,7 +92,6 @@ The same simulation-trained CCM-Nav navigation policy is deployed in previously 
   </tr>
 </table>
 
-The cropped RViz recordings show observed-map updates and executed trajectories during real-world navigation. Playback is accelerated **8×**, with a brief pause at the end of each loop. Click either GIF to view it at full resolution.
 
 ## Results
 
