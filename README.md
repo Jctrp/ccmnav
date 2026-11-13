@@ -7,7 +7,8 @@
 <p align="center">
   <a href="#overview">Overview</a> ·
   <a href="#navigation-demos">Navigation Demos</a> ·
-  <a href="#results">Results</a> 
+  <a href="#real-world-demos">Real-World Demos</a> ·
+  <a href="#results">Results</a>
 </p>
 
 <p align="center">
@@ -71,6 +72,27 @@ Grid-cell geometry, boundary information, movement direction, and place history 
 The animations show m6.3 training trajectories and their spatial diagnostics. Click an animation to inspect it at full resolution. Media provenance is recorded in [assets.json](github/assets.json).
 
 </details>
+
+## Real-World Demos
+
+The same simulation-trained CCM-Nav navigation policy is deployed in previously unseen indoor and outdoor environments **without additional training or fine-tuning**. CCM-Nav maintains its cognitive map and selects successive waypoints online, while CMU-Exploration handles local planning and tracking.
+
+<table>
+  <tr>
+    <th align="center">Indoor Navigation</th>
+    <th align="center">Outdoor Navigation</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="github/real_world_indoor.gif"><img src="github/real_world_indoor.gif" alt="Real-world indoor RViz recording showing observed-map updates and the executed navigation trajectory" width="480"></a></td>
+    <td align="center"><a href="github/real_world_outdoor.gif"><img src="github/real_world_outdoor.gif" alt="Real-world outdoor RViz recording showing observed-map updates and the executed navigation trajectory" width="480"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Corridor junctions and a narrow passage</td>
+    <td align="center">Building-side roadway</td>
+  </tr>
+</table>
+
+The cropped RViz recordings show observed-map updates and executed trajectories during real-world navigation. Playback is accelerated **8×**, with a brief pause at the end of each loop. Click either GIF to view it at full resolution. [Clip details](github/real_world_demos.json).
 
 ## Results
 
