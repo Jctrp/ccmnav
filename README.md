@@ -110,4 +110,4 @@ Reported travel-distance comparison on the same **100 unseen test maps** and sta
 
 CCM-Nav achieves a **100% navigation success rate**, with **6.48% shorter mean travel distance** than CogniPlan. The reported overall inference comparison gives a **2.4× speedup**.
 
-Baseline travel-distance statistics follow the published [CogniPlan comparison](https://proceedings.mlr.press/v305/wang25d.html). The speedup refers to overall inference in the reported comparison.
+Baseline travel-distance statistics follow the published [CogniPlan comparison](https://proceedings.mlr.press/v305/wang25d.html). 
