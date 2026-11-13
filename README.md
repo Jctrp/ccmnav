@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#overview">Overview</a> ·
   <a href="#navigation-demos">Navigation Demos</a> ·
-  <a href="#results">Results</a> ·
+  <a href="#results">Results</a> 
 </p>
 
 <p align="center">
