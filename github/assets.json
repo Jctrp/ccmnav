@@ -1,0 +1,47 @@
+{
+  "description": "Source-faithful assets selected for the GitHub README. Images and GIFs are copied without changing their contents.",
+  "assets": [
+    {
+      "asset": "framework.png",
+      "source": "docs/ccm_nav_v3_framework/framework_corrected.png",
+      "description": "Framework overview",
+      "sha256": "cd6c5db1e77e63026e25b5a81319a208feafbc5e2c752cb66d919fdea0611e27"
+    },
+    {
+      "asset": "cognitive_map.png",
+      "source": "docs/Fig_2_Cognitive_Map_Maintenance.png",
+      "description": "Local spatial encoding and persistent place memory",
+      "sha256": "56601b16d38d1472dfc83c41882728d6ea389acb1ef912a539e2eb23e85c2363"
+    },
+    {
+      "asset": "interaction_readout.png",
+      "source": "docs/fig3_enhanced.png",
+      "description": "Cell interaction and route-aware memory readout",
+      "sha256": "79ab5e08532c1e88186c8c77adf711d38180123dfeafbfd3a42ef5ca15b9147c"
+    },
+    {
+      "asset": "navigation_process.png",
+      "source": "GDCM/related_work_draft/figures/qualitative_navigation_v2/navigation_3x3_with_local_graph.png",
+      "description": "Illustrative V2 training sequences",
+      "sha256": "e1a6c010b6635634b1585bbf1db90b2c6aa6c03b74e73a67b0e9a14261eae1ea"
+    },
+    {
+      "asset": "navigation_01.gif",
+      "source": "checkpoints/m6.3/gifs/train/3000.gif",
+      "description": "m6.3 training rollout, episode 3000",
+      "sha256": "1c3d37b2310aa9a01ce9c97b3c12468e85a566b4b2c3cac1d0e24bff62171204"
+    },
+    {
+      "asset": "navigation_02.gif",
+      "source": "checkpoints/m6.3/gifs/train/5000.gif",
+      "description": "m6.3 training rollout, episode 5000",
+      "sha256": "854163d906002e27537c271605538df5331196e40dbad6939bc0c79be35f31ef"
+    },
+    {
+      "asset": "navigation_03.gif",
+      "source": "checkpoints/m6.3/gifs/train/7000.gif",
+      "description": "m6.3 training rollout, episode 7000",
+      "sha256": "0f0210581c948f73e0fd69ef703faa3caea48f949008ba5ddbd0bad67ae83fdf"
+    }
+  ]
+}
